@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.9-8.0.9-0~ubuntu22.04.1*
+G04 #@! TF.CreationDate,2025-09-11T14:08:15-03:00*
+G04 #@! TF.ProjectId,flatsat-power-adapt,666c6174-7361-4742-9d70-6f7765722d61,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu22.04.1) date 2025-09-11 14:08:15*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.050000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X89493334Y-48500000D02*
+X189493334Y-48500000D01*
+X189493334Y-148500000D01*
+X89493334Y-148500000D01*
+X89493334Y-48500000D01*
+M02*

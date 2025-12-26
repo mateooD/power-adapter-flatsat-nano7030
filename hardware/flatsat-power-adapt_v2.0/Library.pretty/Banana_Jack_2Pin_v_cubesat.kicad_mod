@@ -1,0 +1,202 @@
+(footprint "Banana_Jack_2Pin_v_cubesat"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Dual banana socket, footprint - 2 x 6mm drills")
+	(tags "banana socket")
+	(property "Reference" "J1"
+		(at 14.985 -6.24 0)
+		(layer "F.SilkS")
+		(uuid "ec67917f-caa9-4edf-a1d6-c7b7ece78654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VCC_3V3"
+		(at 14.985 6.29 0)
+		(layer "F.Fab")
+		(uuid "e4518c77-c175-4ebc-86e8-28472d70b6c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector:Banana_Jack_2Pin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "553ab5ac-ada8-4e85-93f9-954cae70132f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e4fa63d-dc45-41b6-8ba2-912ce8fd8999")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "122ea937-9b04-4ec9-b96c-341b66b4329a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 5.25)
+		(end 17.5 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81cc3141-8773-4e82-80ec-56455c887379")
+	)
+	(fp_line
+		(start 17.5 -5.25)
+		(end 0 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10e6fc51-6d87-42f1-bc33-36a8059e5836")
+	)
+	(fp_arc
+		(start 0 5.25)
+		(mid -5.25 0)
+		(end 0 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccbe9280-2982-4ce7-98cf-0a544ae997f8")
+	)
+	(fp_arc
+		(start 17.5 -5.25)
+		(mid 22.75 0)
+		(end 17.5 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bee59e8-c9bb-40c1-9fd2-5b616e3b4869")
+	)
+	(fp_line
+		(start 0 5.5)
+		(end 17.5 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e4b5315-bbc1-4e54-a4e7-eec8707c5a2f")
+	)
+	(fp_line
+		(start 17.5 -5.5)
+		(end 0 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60fe9669-7157-433d-bbf3-0e22d293694c")
+	)
+	(fp_arc
+		(start 0 5.5)
+		(mid -5.5 0)
+		(end 0 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf105aef-21f4-44bc-95d4-a1ec6aed8373")
+	)
+	(fp_arc
+		(start 17.5 -5.5)
+		(mid 23 0)
+		(end 17.5 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcab2ea9-1ff4-45b1-98aa-7fe5b8cbdd66")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.985 0 0)
+		(layer "F.Fab")
+		(uuid "9d677ade-5568-4902-ad93-293ea78fa72e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "9e66e987-441c-485c-9384-4cc1ec582424")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "94f583b1-df5a-4555-87ac-59b94e01b375")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/Banana_Jack_2Pin.wrl"
+		(offset
+			(xyz 14.98599977 0 0)
+		)
+		(scale
+			(xyz 2 2 2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
