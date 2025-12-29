@@ -54,6 +54,7 @@ La placa actúa como interfaz entre la fuente de laboratorio y los subsistemas d
 power-adapter-flatsat-nano7030/
 ├── hardware/ # Diseño KiCad del PCB
 ├── docs/ # Documentación y referencias técnicas
+├── images/ # Imágenes y diagramas del proyecto
 ├── test/ # Resultados de pruebas y validaciones (futuro)
 └── README.md
 ```
