@@ -4,6 +4,11 @@ Esta carpeta contiene el **diseño completo en KiCad** de la placa *Power Adapte
 
 El proyecto incluye el esquemático y el diseño de PCB correspondientes a la versión **v2.0** del Power Adapter.
 
+![FlatSat_híbrido](/images/1.jpg)
+
+![FlatSat](/images/2.jpg)
+
+
 ---
 
 ## 📂 Contenido
@@ -31,6 +36,12 @@ El proyecto incluye el esquemático y el diseño de PCB correspondientes a la ve
 
 - `*-backups/`  
   Copias de respaldo automáticas generadas por KiCad.
+
+
+![Back](/images/flatsat-power-adapt_v2.02.png)
+
+![Front](/images/flatsat-power-adapt_v2.03.png)
+
 
 ---
 
