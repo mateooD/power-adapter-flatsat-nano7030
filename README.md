@@ -12,6 +12,11 @@ Este repositorio documenta el diseño del **Power Adapter**, una placa de alimen
 
 La placa actúa como interfaz entre la fuente de laboratorio y los subsistemas del satélite, permitiendo una distribución segura de potencia, la incorporación de protecciones eléctricas y la instrumentación necesaria para tareas de prueba, validación e integración del sistema.
 
+![FlatSat_híbrido](/images/1.jpg)
+
+![FlatSat](/images/3.jpg)
+
+
 ---
 
 ## 🎯 Objetivos del proyecto
